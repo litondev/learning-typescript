@@ -18,6 +18,19 @@ enum MimeTypes {
  PDF = <any>'application/pdf' 
 }
 
+/*
+enum MimeTypes {
+ JPEG = 'image/jpeg',   
+ PNG = 'image/png',   
+ PDF = 'application/pdf',
+}
+
+enum MyNumber {
+	myValue1 = 10,
+	myValue2 = 40
+}
+*/
+
 for(let value in MimeTypes){
 	console.log(value)
 	console.log(MimeTypes[value])
